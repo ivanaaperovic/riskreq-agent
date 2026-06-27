@@ -1,0 +1,15 @@
+# Tajni podaci - nikad u git
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generisani izlazi agenta (ad-hoc pokretanja); cuvamo TEST_ rezultate kao dokaz
+izlaz/*
+!izlaz/TEST_*.md
+*.log
+
+# OS
+.DS_Store

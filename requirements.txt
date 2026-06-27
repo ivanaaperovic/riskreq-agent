@@ -1,0 +1,12 @@
+# Biblioteke za AI agenta (analiza zahteva + procena rizika)
+langchain>=1.0
+langchain-openai>=0.2
+langchain-core>=0.3
+python-dotenv>=1.0
+
+# Opcioni izvor podataka: CreatorLab WooCommerce prodavnica
+woocommerce>=3.0
+requests>=2.31
+
+# Za pokretanje preko lokalnog Ollama modela (vise provajdera):
+langchain-ollama>=0.2
