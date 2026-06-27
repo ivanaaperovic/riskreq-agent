@@ -1,0 +1,12 @@
+SkillSwap - platforma za razmenu vestina
+
+SkillSwap je veb i mobilna aplikacija koja povezuje ljude koji zele da nauce novu
+vestinu sa ljudima koji tu vestinu vec poseduju i spremni su da je podele. Umesto
+placanja novcem, korisnici razmenjuju vestine (npr. casovi gitare za casove engleskog)
+ili koriste interne kredite koje zarade kada nekog necemu nauce.
+
+Korisnik kreira profil, navodi vestine koje nudi i vestine koje trazi, pretrazuje druge
+korisnike, salje zahtev za razmenu i zakazuje termin (online ili uzivo). Nakon odrzane
+sesije obe strane ostavljaju ocenu i recenziju. Aplikacija ima sistem kredita, kalendar
+termina, chat izmedju korisnika i notifikacije. Administrator moderira prijave
+neprimerenog ponasanja i upravlja kategorijama vestina.

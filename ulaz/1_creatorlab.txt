@@ -1,0 +1,11 @@
+CreatorLab - online akademija (e-commerce aplikacija)
+
+CreatorLab je veb aplikacija (WooCommerce/WordPress) preko koje online akademija
+prodaje kurseve iz oblasti social media marketinga i kreiranja sadrzaja. Korisnici
+mogu da pregledaju katalog kurseva, dodaju kurs u korpu, plate karticom i dobiju
+pristup video lekcijama. Postoje uloge: posetilac, registrovani polaznik i
+administrator. Administrator dodaje kurseve, cene i opise i prati prodaju.
+
+Sistem koristi eksterni servis za placanje, salje email potvrde o kupovini i cuva
+podatke o korisnicima (ime, email, istorija kupovina). Sadrzaj kurseva (video) hostuje
+se na platformi i prikazuje samo polaznicima koji su platili odgovarajuci kurs.

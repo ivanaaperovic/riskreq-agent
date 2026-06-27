@@ -1,0 +1,11 @@
+MobaBank - aplikacija za mobilno bankarstvo
+
+MobaBank je mobilna aplikacija banke koja klijentima omogucava upravljanje racunima
+sa telefona. Korisnik se prijavljuje korisnickim imenom i lozinkom, a transakcije
+dodatno potvrdjuje biometrijom (otisak prsta / lice) ili jednokratnim kodom.
+
+Funkcionalnosti: pregled stanja i prometa po racunima, instant placanje i prenos
+sredstava, placanje racuna skeniranjem QR/IPS koda, otvaranje stednje, blokada kartice
+i podesavanje limita. Aplikacija se povezuje sa core banking sistemom banke preko API-ja,
+salje push notifikacije o transakcijama i radi sa osetljivim finansijskim podacima.
+Mora biti uskladjena sa regulativom (NBS, GDPR) i dostupna 24/7.
