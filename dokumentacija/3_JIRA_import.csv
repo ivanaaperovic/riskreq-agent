@@ -1,0 +1,41 @@
+Issue Type,Summary,Epic Name,Epic Link,Parent,Priority,Status,Assignee,Description
+Epic,Postavka projekta i infrastruktura,EPIC-1 Postavka,,,High,Done,Ivana Perovic,venv/zavisnosti/.env/izbor LLM provajdera
+Epic,Ucitavanje i obrada ulaza,EPIC-2 Ulaz,,,High,Done,Ivana Perovic,Tri izvora ulaza + priprema teksta
+Epic,Rezim Analiza zahteva,EPIC-3 Zahtevi,,,High,Done,Ivana Perovic,Workflow A1->A2->A3
+Epic,Rezim Registar rizika,EPIC-4 Rizici,,,High,Done,Ivana Perovic,Workflow B1->B2->B3
+Epic,Testiranje i validacija,EPIC-5 Test,,,Medium,Done,Ivana Perovic,Test na >=3 ulaza i provera strukture
+Epic,Dokumentacija,EPIC-6 Dokumentacija,,,Medium,In Progress,Ivana Perovic,SRS/README/kriticka ocena/JIRA-GitHub
+Story,Modularna struktura projekta,,EPIC-1 Postavka,,High,Done,Ivana Perovic,Kao developer zelim modularnu strukturu
+Task,Kreirati module config/llm_provider/data_processing/prompts/agent/main,,,Modularna struktura projekta,High,Done,Ivana Perovic,
+Task,requirements.txt + venv,,,Modularna struktura projekta,High,Done,Ivana Perovic,
+Story,Izbor LLM provajdera/modela,,EPIC-1 Postavka,,High,Done,Ivana Perovic,Ollama ili OpenAI preko .env
+Task,Fabrika kreiraj_llm (Ollama+OpenAI),,,Izbor LLM provajdera/modela,High,Done,Ivana Perovic,
+Task,.env + validacija kljuceva,,,Izbor LLM provajdera/modela,High,Done,Ivana Perovic,WooCommerce kljucevi opcioni
+Story,Unos opisa sistema iz 3 izvora,,EPIC-2 Ulaz,,High,Done,Ivana Perovic,terminal/fajl/prodavnica
+Task,Direktan unos sa terminala,,,Unos opisa sistema iz 3 izvora,High,Done,Ivana Perovic,
+Task,Ucitavanje iz ulaz/*.txt,,,Unos opisa sistema iz 3 izvora,High,Done,Ivana Perovic,
+Task,Opcioni WooCommerce izvor,,,Unos opisa sistema iz 3 izvora,Medium,Done,Ivana Perovic,
+Story,Priprema ulaza (ciscenje+chunking),,EPIC-2 Ulaz,,Medium,Done,Ivana Perovic,kontrola troska tokena
+Task,ocisti_html / pripremi_ulaz / skrati,,,Priprema ulaza (ciscenje+chunking),Medium,Done,Ivana Perovic,
+Story,User stories iz opisa sistema,,EPIC-3 Zahtevi,,High,Done,Ivana Perovic,Kao PO zelim user stories
+Task,Prompt A1 akteri+celine,,,User stories iz opisa sistema,High,Done,Ivana Perovic,
+Task,Prompt A2 user stories,,,User stories iz opisa sistema,High,Done,Ivana Perovic,
+Task,Prompt A3 acceptance criteria+NFR,,,User stories iz opisa sistema,High,Done,Ivana Perovic,
+Task,Metoda analiza_zahteva (3 koraka),,,User stories iz opisa sistema,High,Done,Ivana Perovic,
+Story,Registar rizika sa procenom V x U,,EPIC-4 Rizici,,High,Done,Ivana Perovic,Kao menadzer rizika zelim registar
+Task,Prompt B1 komponente,,,Registar rizika sa procenom V x U,High,Done,Ivana Perovic,
+Task,Prompt B2 identifikacija rizika,,,Registar rizika sa procenom V x U,High,Done,Ivana Perovic,
+Task,Prompt B3 procena+registar+Top3,,,Registar rizika sa procenom V x U,High,Done,Ivana Perovic,
+Task,Metoda registar_rizika (3 koraka),,,Registar rizika sa procenom V x U,High,Done,Ivana Perovic,
+Story,Cuvanje strukturisanog izlaza,,EPIC-4 Rizici,,Medium,Done,Ivana Perovic,Markdown izlaz u izlaz/
+Task,sacuvaj_izlaz sa vremenskom oznakom,,,Cuvanje strukturisanog izlaza,Medium,Done,Ivana Perovic,
+Story,Test na >=3 ulaza,,EPIC-5 Test,,Medium,Done,Ivana Perovic,potvrda rada i strukture
+Task,test_agent.py (3 ulaza x 2 rezima),,,Test na >=3 ulaza,Medium,Done,Ivana Perovic,
+Task,Automatska provera obaveznih sekcija,,,Test na >=3 ulaza,Medium,Done,Ivana Perovic,
+Story,Robusna obrada gresaka,,EPIC-5 Test,,Medium,Done,Ivana Perovic,aplikacija ne pada
+Task,Hvatanje gresaka modela,,,Robusna obrada gresaka,Medium,Done,Ivana Perovic,kljuc/timeout/limit/konekcija
+Story,Projektni zadatak i dokumentacija,,EPIC-6 Dokumentacija,,Medium,In Progress,Ivana Perovic,SRS/README/kritika/JIRA-GitHub
+Task,SRS dokument,,,Projektni zadatak i dokumentacija,Medium,Done,Ivana Perovic,
+Task,README pokretanje,,,Projektni zadatak i dokumentacija,Medium,Done,Ivana Perovic,
+Task,Kriticka ocena,,,Projektni zadatak i dokumentacija,Medium,In Progress,Ivana Perovic,
+Task,JIRA + GitHub povezivanje,,,Projektni zadatak i dokumentacija,Medium,In Progress,Ivana Perovic,
