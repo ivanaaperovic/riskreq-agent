@@ -3,6 +3,12 @@
 Cilj: prikazati kako se JIRA zadaci (npr. `RISKREQ-12`) povezuju sa GitHub aktivnostima
 — granama, commit-ovima i Pull Request-ovima.
 
+**Repozitorijum projekta:** https://github.com/ivanaaperovic/riskreq-agent
+
+> Commit istorija već koristi konvenciju `RISKREQ-<broj>` u porukama (vidi `git log`),
+> a ovaj dokument je dodat kroz granu `RISKREQ-13-jira-github` i Pull Request — što služi
+> kao konkretan primer povezivanja JIRA zadatka sa GitHub aktivnostima.
+
 ---
 
 ## 1. Postavljanje GitHub repozitorijuma
